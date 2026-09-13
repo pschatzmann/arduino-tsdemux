@@ -1,5 +1,16 @@
 cmake_minimum_required(VERSION 3.16)
 
+if (DEFINED ESP_PLATFORM)
+  # idf component
+  idf_component_register(
+      SRC_DIRS src
+      INCLUDE_DIRS src
+  )
+
+  target_compile_options(${COMPONENT_LIB} PUBLIC -Wno-error)
+
+else()
+
 # set the project name
 project(tsdemux)
 
@@ -14,4 +25,6 @@ add_library (tsdemux ${SRC_LIST_C})
 
 # define location for header files
 target_include_directories(tsdemux PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src )
+
+endif()
 

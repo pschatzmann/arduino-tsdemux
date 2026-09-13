@@ -1,4 +1,8 @@
 # tsdemux
+
+[![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/)
+[![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/arduino-tsdemux)
+
 MPEG-TS (ISO/IEC 13818-1) demultiplexer.
 
 ## Overview
