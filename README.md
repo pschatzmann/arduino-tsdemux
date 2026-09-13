@@ -2,6 +2,7 @@
 
 [![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/)
 [![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/arduino-tsdemux)
+[![CMake](https://img.shields.io/badge/CMake-Supported-blue.svg)](https://cmake.org/)
 
 MPEG-TS (ISO/IEC 13818-1) demultiplexer.
 
